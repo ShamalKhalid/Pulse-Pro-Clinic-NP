@@ -1632,3 +1632,19 @@ a:focus {
 .disc {
   color: #004599;
 }
+
+.singleImg {
+  height: 80vh;
+  width: 40vw;
+}
+.custom-book-btn {
+  background-color: #004599;
+  border-color: #004599;
+  color: #fff;
+}
+
+.custom-book-btn:hover {
+  background-color: #223a66;
+  border-color: #223a66;
+  color: #fff;
+}
