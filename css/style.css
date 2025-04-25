@@ -524,12 +524,12 @@ a:focus {
   position: relative;
   overflow: hidden;
   background: #fff;
-  background: url("../images/bg/doc1.png") no-repeat;
+  background: url("../images/bg/bg1.jpg") no-repeat;
   background-size: cover;
-  min-height: 550px;
+  min-height: 700px;
 }
 .banner .block {
-  padding: 80px 0px 160px;
+  padding: 80px 0px 0px;
 }
 .banner .block h1 {
   font-size: 60px;
@@ -579,16 +579,31 @@ a:focus {
 }
 @media (max-width: 768px) {
   .banner .block h1 {
-    font-size: 56px;
-    line-height: 70px;
+    font-size: 36px;
+    line-height: 48px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    padding-bottom: 0px;
+  }
+
+  .mobile-break {
+    display: block;
   }
   .banner {
     background: #fff !important;
   }
 }
 @media (max-width: 992px) {
-  .banner {
+  .banner-block {
     background: #fff !important;
+    margin-left: 0px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 0px 0;
   }
 }
 .about-img img {
@@ -873,7 +888,7 @@ a:focus {
 }
 
 .cta-page {
-  background: url("../images/bg/banner.jpg") no-repeat;
+  background: #fff;
   background-size: cover;
   position: relative;
 }
@@ -1647,4 +1662,34 @@ a:focus {
   background-color: #223a66;
   border-color: #223a66;
   color: #fff;
+}
+/* about content  */
+@media (max-width: 767.98px) {
+  .list-disc {
+    text-align: left !important;
+    margin-left: 0 !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .list-disc {
+    text-align: left !important;
+    margin-left: 80px;
+  }
+}
+
+/* expert */
+
+@media (max-width: 767.98px) {
+  .section-title {
+    margin-top: 20px !important;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-title {
+    margin-top: 20px !important;
+    margin-bottom: 10px;
+  }
 }
