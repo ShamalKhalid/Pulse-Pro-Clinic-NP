@@ -524,7 +524,7 @@ a:focus {
   position: relative;
   overflow: hidden;
   background: #fff;
-  background: url("../images/bg/bg1.jpg") no-repeat;
+  background: url("../images/bg/bg1.jpg");
   background-size: cover;
   min-height: 700px;
 }
@@ -1714,5 +1714,27 @@ a:focus {
   }
   .banner-block .blockh {
     margin-top: 140px;
+  }
+}
+/* Nav Issue */
+@media (max-width: 991px) {
+  .navigation .dropdown-menu {
+    display: none;
+  }
+
+  .navigation .dropdown.show .dropdown-menu {
+    display: block;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+    transition: none !important;
+  }
+
+  .navbar-collapse {
+    transition: none !important;
+  }
+
+  .collapse:not(.show) {
+    display: none !important;
   }
 }
