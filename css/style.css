@@ -1836,3 +1836,34 @@ a:focus {
     margin-left: 55px;
   }
 }
+/* For wider mobile screens like Nothing Phone 1, iPhone 12, etc. */
+@media (max-width: 991.98px) {
+  .aboutimg {
+    width: 100%;
+    height: 60vh; /* Adjust if needed */
+  }
+  .imageclass {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    bottom: 50px;
+  }
+  .consult {
+    margin-left: 30px; /* Less than phones */
+  }
+}
+@media (max-width: 991.98px) {
+  .about-content {
+    padding-left: 0 !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .vdisc {
+    margin-right: 0px;
+  }
+}
+.uled {
+  margin-right: 145px;
+}
