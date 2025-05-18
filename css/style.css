@@ -523,8 +523,8 @@ a:focus {
 
 .banner {
   position: relative;
-  height: 100vh;
   overflow: hidden;
+  height: 90vh;
 }
 
 .banner-img {
@@ -533,9 +533,28 @@ a:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Or 'cover' if needed */
-  object-position: top center;
-  z-index: 0;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  background-image: url("../images/bg/bg-laptop.jpg"); /* Default background */
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .banner-img {
+    background-image: url("../images/bg/bg-small.jpg");
+  }
+}
+/* Mobile phones */
+@media (max-width: 767px) {
+  .banner-img {
+    background-image: url("../images/bg/bg-phone.jpg");
+  }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner-img {
+    background-image: url("../images/bg/bg-tab.jpg");
+  }
 }
 
 .banner-content {
