@@ -537,8 +537,8 @@ a:focus {
   width: 90%;
 }
 .profile {
-  height: 70vh;
-  width: 40vw;
+  /* height: 60vh; */
+  width: 30vw;
   border-radius: 100%;
 }
 
@@ -573,6 +573,11 @@ a:focus {
     width: 90%;
     padding-top: 5vh;
   }
+  .profile {
+    /* height: 60vh; */
+    width: 70vw;
+    border-radius: 100%;
+  }
 }
 /* Mobile phones */
 @media (max-width: 767px) {
@@ -586,6 +591,11 @@ a:focus {
     height: 90%;
     width: 90%;
     padding-top: 5vh;
+  }
+  .profile {
+    /* height: 60vh; */
+    width: 70vw;
+    border-radius: 100%;
   }
 }
 
