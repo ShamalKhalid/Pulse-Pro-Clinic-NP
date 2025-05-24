@@ -532,6 +532,11 @@ a:focus {
   padding-left: 3vw;
 }
 
+.img-fluid {
+  height: 90%;
+  width: 90%;
+}
+
 .banner-img {
   position: absolute;
   top: 0;
@@ -558,6 +563,11 @@ a:focus {
   .title-color {
     margin-right: 0px;
   }
+  .img-fluid {
+    height: 90%;
+    width: 90%;
+    padding-top: 5vh;
+  }
 }
 /* Mobile phones */
 @media (max-width: 767px) {
@@ -566,6 +576,11 @@ a:focus {
   }
   .banner {
     margin-bottom: 4vh;
+  }
+  .img-fluid {
+    height: 90%;
+    width: 90%;
+    padding-top: 5vh;
   }
 }
 
@@ -580,6 +595,11 @@ a:focus {
     position: relative;
     left: 19vw;
     top: 5vh;
+  }
+  .img-fluid {
+    height: 90%;
+    width: 90%;
+    padding-top: 5vh;
   }
 }
 
