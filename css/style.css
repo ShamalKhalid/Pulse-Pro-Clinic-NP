@@ -527,6 +527,11 @@ a:focus {
   height: 90vh;
 }
 
+.bg-logo {
+  padding-top: 4vh;
+  padding-left: 3vw;
+}
+
 .banner-img {
   position: absolute;
   top: 0;
@@ -538,9 +543,20 @@ a:focus {
   z-index: -1;
   background-image: url("../images/bg/bg-laptop.jpg"); /* Default background */
 }
+/* Small phones */
 @media (min-width: 320px) and (max-width: 767px) {
   .banner-img {
     background-image: url("../images/bg/bg-small.jpg");
+  }
+  .bg-logo {
+    height: 65%;
+    width: 65%;
+    position: relative;
+    left: 19vw;
+    top: 5vh;
+  }
+  .title-color {
+    margin-right: 0px;
   }
 }
 /* Mobile phones */
@@ -548,12 +564,22 @@ a:focus {
   .banner-img {
     background-image: url("../images/bg/bg-phone.jpg");
   }
+  .banner {
+    margin-bottom: 4vh;
+  }
 }
 
 /* Tablets */
 @media (min-width: 768px) and (max-width: 991px) {
   .banner-img {
     background-image: url("../images/bg/bg-tab.jpg");
+  }
+  .bg-logo {
+    height: 65%;
+    width: 65%;
+    position: relative;
+    left: 19vw;
+    top: 5vh;
   }
 }
 
