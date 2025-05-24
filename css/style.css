@@ -532,7 +532,7 @@ a:focus {
   padding-left: 3vw;
 }
 
-.img-fluid {
+.footer-img {
   height: 90%;
   width: 90%;
 }
@@ -563,7 +563,7 @@ a:focus {
   .title-color {
     margin-right: 0px;
   }
-  .img-fluid {
+  .footer-img {
     height: 90%;
     width: 90%;
     padding-top: 5vh;
@@ -577,7 +577,7 @@ a:focus {
   .banner {
     margin-bottom: 4vh;
   }
-  .img-fluid {
+  .footer-img {
     height: 90%;
     width: 90%;
     padding-top: 5vh;
@@ -596,7 +596,7 @@ a:focus {
     left: 19vw;
     top: 5vh;
   }
-  .img-fluid {
+  .footer-img {
     height: 90%;
     width: 90%;
     padding-top: 5vh;
