@@ -536,6 +536,11 @@ a:focus {
   height: 90%;
   width: 90%;
 }
+.profile {
+  height: 70vh;
+  width: 40vw;
+  border-radius: 100%;
+}
 
 .banner-img {
   position: absolute;
